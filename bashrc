@@ -71,12 +71,8 @@ alias latexmk="latexmk -pdf"
 alias latexmkpreview="latexmk -pdf -pvc"
 alias latexmkclean="latexmk -pdf && latexmk -c"
 
-#SVN
-export LC_ALL=C # this should fix some LC_CTYPE warning
-export SVN_EDITOR="emacsclient"
-alias commit='svn update && svn commit'
-alias status="svn status"
-alias update="svn update"
+# Python
+alias nb="ipython notebook"
 
 # git
 # Add auto completion to git. The file should be found in "contrib/completion"
