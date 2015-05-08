@@ -1,3 +1,5 @@
+# -*- mode: sh; -*-
+
 # Colors definitions
 txtdgr='\[\e[1;30m\]' # Dark gray
 txtred='\[\e[0;31m\]' # Red
